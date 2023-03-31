@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url('./bg.jpg');
+  background-size: cover;
+}
+
+.main {
+  display: grid;
+  margin: 10vh auto;
+  background-color: rgb(0, 0, 0);
+  height: 80vh;
+  width: 40vh;
+  border: 5px solid rgb(0, 0, 0);
+  grid-template-columns: 8.5vh;
+  grid-template-rows: 4vh 20vh 10vh;
+  grid-template-areas:
+    'casio casio casio casio'
+    'screen screen screen screen '
+    'answer answer answer answer';
+  padding: 4px 4px 0 4px;
+  border-radius: 10px;
+}
+
+.casio {
+  color: aliceblue;
+  grid-area: casio;
+  margin: 0px auto;
+  letter-spacing: 5px;
+}
+
+.screen {
+  grid-area: screen;
+  background-color: rgb(128, 157, 128);
+  font-size: xx-large;
+  padding-left: 10px;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+.answer {
+  grid-area: answer;
+  background-color: rgb(128, 157, 128);
+  margin-bottom: 0.5rem;
+  padding-right: 10px;
+  display: flex;
+  justify-content: right;
+  font-size: xx-large;
+  align-items: center;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 9.7vh);
+  grid-template-areas:
+    'button-1 button-2 button-3 button-4 '
+    'button-5 button-6 button-7 button-8'
+    'button-9 button-10 button-11 button-12'
+    'button-13 button-14 button-15 button-16'
+    'button-17 button-18 button-19 button-19';
+}
+
+.button {
+  background-color: rgb(126, 126, 175);
+  margin: 0 9.5px 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+}
+
+#button-1 {
+  grid-area: button-1;
+}
+#button-2 {
+  grid-area: button-2;
+}
+#button-3 {
+  grid-area: button-3;
+}
+#button-4 {
+  grid-area: button-4;
+}
+#button-5 {
+  grid-area: button-5;
+}
+#button-6 {
+  grid-area: button-6;
+}
+#button-7 {
+  grid-area: button-7;
+}
+#button-8 {
+  grid-area: button-8;
+}
+#button-9 {
+  grid-area: button-9;
+}
+#button-10 {
+  grid-area: button-10;
+}
+#button-11 {
+  grid-area: button-11;
+}
+#button-12 {
+  grid-area: button-12;
+}
+#button-13 {
+  grid-area: button-13;
+}
+#button-14 {
+  grid-area: button-14;
+}
+#button-15 {
+  grid-area: button-15;
+}
+#button-16 {
+  grid-area: button-16;
+}
+#button-17 {
+  grid-area: button-17;
+}
+#button-18 {
+  grid-area: button-18;
+}
+#button-19 {
+  grid-area: button-19;
+}
